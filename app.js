@@ -4,7 +4,7 @@ const PORT = 5000
 
 
 app.get('/', (req, res)=>{
-    res.sendStatus('hello world')
+    res.send('hello world')
 })
 
 app.listen(PORT,()=>{
