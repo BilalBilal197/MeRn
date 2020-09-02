@@ -39,5 +39,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Mern stack social media website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalBilal197/MeRn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilalBilal197/MeRn/issues"
+  },
+  "homepage": "https://github.com/BilalBilal197/MeRn#readme"
 }
