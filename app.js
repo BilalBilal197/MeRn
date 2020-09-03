@@ -7,14 +7,13 @@ const customMiddleware = (req, res, next) => {
     next()
 }
 
-app.use(customMiddleware)
 
 app.get('/',(req,res)=>{
     console.log("home")
     res.send("hello world")
 })
 
-app.get('/about',(req,res)=>{
+app.get('/about',customMiddleware,(req,res)=>{
     console.log("about")
     res.send("about page")
 })
