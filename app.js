@@ -9,8 +9,14 @@ const customMiddleware = (req, res, next) => {
 
 app.use(customMiddleware)
 
-app.get('/home',(req,res)=>{
+app.get('/',(req,res)=>{
+    console.log("home")
     res.send("hello world")
+})
+
+app.get('/about',(req,res)=>{
+    console.log("about")
+    res.send("about page")
 })
 
 app.listen(PORT,()=>{
